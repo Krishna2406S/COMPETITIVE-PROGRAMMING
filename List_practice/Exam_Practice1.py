@@ -4,9 +4,7 @@ Count_Pass = 0
 Count_Fail = 0
 for i in range(len(A)):
     if A[i]>=35:
-        Count_Pass+=1
-        
+        Count_Pass+=1  
     else:
         Count_Fail+=1
-print("Passes -->", Count_Pass)
-print("Failed -->", Count_Fail)
+print(Count_Pass , Count_Fail)
